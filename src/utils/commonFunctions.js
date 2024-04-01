@@ -73,7 +73,7 @@ export const formatTransactionData = (data) => {
     Transaction: data.transactionType,
     Name: data.user.name,
     Email: data.user.email,
-    Due: data?.dueDate.slice(0, 10),
+    Due: data?.dueDate?.slice(0, 10),
   };
 };
 
